@@ -45,6 +45,32 @@ VALUES
 
 
 
+UPDATE users
+SET password = 
+    CASE 
+        WHEN id = 1 THEN 'm5W8jDx7K'
+        WHEN id = 2 THEN 'Tz3qFy1vE'
+        WHEN id = 3 THEN 'n9X2kMf4G'
+        WHEN id = 4 THEN 'Hc6bRt7pL'
+        WHEN id = 5 THEN 'j8P5sTm6B'
+        WHEN id = 6 THEN 'Vh9rJd1zE'
+        WHEN id = 7 THEN 'Gt7yFk2wQ'
+        WHEN id = 8 THEN 'Nf4bMj6S9'
+        WHEN id = 9 THEN 'q2Z9dL8gF'
+        WHEN id = 10 THEN 's5W8hT1nG'
+        WHEN id = 11 THEN 'k3B7pR9cN'
+        WHEN id = 12 THEN 'm2Q5xJ7zD'
+        WHEN id = 13 THEN 'r8L5jF9bG'
+        WHEN id = 14 THEN 'd4H6cR5vZ'
+        WHEN id = 15 THEN 't7G2yK1qN'
+        WHEN id = 16 THEN 'k3B7st9cN'
+        WHEN id = 17 THEN 'm9Q5xd7zD'
+        WHEN id = 18 THEN 'r4L5jh9bG'
+        WHEN id = 19 THEN 'd8H6cr5vZ'
+        WHEN id = 20 THEN 't8G2yz1qN'
+        WHEN id = 21 THEN 't8Z6yz8qN'
+    END
+WHERE id BETWEEN 1 AND 21;
 
 
 
